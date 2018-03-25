@@ -7,7 +7,7 @@ const webp=require('webp-converter');
         headless: true
     });
     const page = await browser.newPage();
-    await page.goto("http://comic.naver.com/webtoon/detail.nhn?titleId=119874&no=1138&weekday=fri");
+    await page.goto("");
     await page.setViewport({width: 1024, height: 1024, deviceScaleFactor: 2});
     const title = await page.$('.wt_viewer');
 
