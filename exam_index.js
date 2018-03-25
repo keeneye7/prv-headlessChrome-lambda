@@ -11,7 +11,7 @@ const puppeteer = require('puppeteer');
 // Adjustments particular to this page to ensure we hit desktop breakpoint.
     // page.setViewport({width: 1000, height: 600, deviceScaleFactor: 1});
 
-    await page.goto('http://comic.naver.com/webtoon/detail.nhn?titleId=119874&no=1139&weekday=fri');
+    await page.goto('');
 
     /**
      * Takes a screenshot of a DOM element on the page, with optional padding.
